@@ -1,7 +1,18 @@
+/* general */
+
 html{
    height: 100%; 
-   position: relative;
+   
 }
+
+body{
+    height: 100%;
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fak3.picdn.net%2Fshutterstock%2Fvideos%2F1031212043%2Fthumb%2F1.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fvideo%2Fclip-1031212043-rainbow-galaxy-background-pastel-color-unicorn-sky&tbnid=vJTzY7dl1DgtqM&vet=10CAUQMyjKAWoXChMI4PTBnOK-5wIVAAAAAB0AAAAAEAM..i&docid=smcYqH9GOsHuSM&w=853&h=480&q=background%20image%20pastel%20colors&ved=0CAUQMyjKAWoXChMI4PTBnOK-5wIVAAAAAB0AAAAAEAM);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+
 .navbar.navbar-expand-lg.navbar-light.bg-light {
  height: 86px;
  box-sizing: unset;
@@ -26,20 +37,17 @@ a.navbar-brand{
     padding-bottom: 10px;
 }
 
-.container{
-    width: 960px;
-    margin: auto;
-}
 
-
-
+/* main section */
 .container{
     padding: 20px;
     border: solid lightgray 2px;
-    margin: 20px;
+    margin: auto;
+    margin-top: 20px;
+    
 }
 
-.row {
+div.row {
     max-width: 960px;
     margin: auto;
     padding: 10px;
@@ -47,6 +55,8 @@ a.navbar-brand{
 }
 #aboutme{
     border-bottom: solid lightgray 1.5px;
+    padding: 20px;
+    margin-bottom: 30px;
     
 }
 
@@ -66,26 +76,70 @@ h1{
     color: #ffffff;
 }
 
-.navbar.navbar-default.navbar-fixed-bottom {
-    text-align: center;
-}
 
-.container-footer{
+/* Footer */
+
+
+
+
+.footer.mt-auto.py-3{
     background-color: grey;
     border-top: solid #4aaaa5 4px;
-    position: absolute;
     width: 100%;
     bottom: 0;
 }
-#footer{
+.container_footer{
     margin: 0;
     text-align: center;
     font-size: 12px;
     color: #ffffff;
     padding-top: 20px;
+    bottom: 0;
     
     
 }
 
 
-@media
+  
+ 
+@media (max-width: @screen-xs-max){
+    .container{
+        width: inherit;
+    }
+
+
+@media (max-width: 575.98px) {
+    .container {
+        min-width: 100%;
+    }
+
+
+header{
+    padding: 20px;
+    border-bottom: lightgray solid 2px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    height: 150px;
+    position: relative;
+    margin: 10px;
+}
+
+.pic_name{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: #ffffff;
+bottom: 10px;
+font-weight: bold;
+}
