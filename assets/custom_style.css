@@ -40,11 +40,13 @@ a.navbar-brand{
 
 /* main section */
 .container{
+    width: 960px;
     padding: 20px;
     border: solid lightgray 2px;
     margin: auto;
     margin-top: 20px;
-    
+    margin-bottom: 19px;
+
 }
 
 div.row {
@@ -100,18 +102,12 @@ h1{
 }
 
 
-  
- 
-@media (max-width: @screen-xs-max){
-    .container{
-        width: inherit;
+@media @screen-xs (max-width:576px) {
+    
+    body{
+        width: 100%
     }
-
-
-@media (max-width: 575.98px) {
-    .container {
-        min-width: 100%;
-    }
+}
 
 
 header{
@@ -124,22 +120,22 @@ img{
     height: 100%;
 }
 
-.box{
+div.box{
     width: 300px;
     height: 150px;
     position: relative;
-    margin: 10px;
+    margin: 12px;
 }
 
-.pic_name{
+div.pic_name{
     width: 300px;
     height: 40px;
     position: absolute;
     text-align: center;
     background-color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-color: #ffffff;
-bottom: 10px;
-font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    bottom: 10px;
+    font-weight: bold;
 }
