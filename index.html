@@ -1,56 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Karina Titov | About</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/custom_style.css">
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Karina Titov | About</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/custom_style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">
-            <h1 id="main">Karina Titov</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand">
+                <h1 id="main">Karina Titov</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-
-
     </nav>
 
-    <div class="container">
+    <div class="container" id="main-container">
         <div class="row" id="aboutme">
-            <div class="col-ld-12">
+            <div class="col-md-12">
                 <h1>About me</h1>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-3">
-                <img src="assets/img/14482222_565160223674307_6327776266384572416_n.jpg" width="200px" height="200px">
+            <div class="col-md-3">
+                <img src="assets/img/14482222_565160223674307_6327776266384572416_n.jpg" width="100%" height="100%">
             </div>
-            <div class="col-lg-9">
+            <div class="col-md-9">
                 <p>Hi! It's not a secret, that's my first web page i ever made. You probably thinking, how i came up
                     with
                     idea to
@@ -64,7 +66,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <p>Since childhood i had a
                     dream to travel all around the world and to see every single country on this earth.
                     So after being a stay-at-home mom for 3 years i decided that i have to do something about my life
@@ -74,8 +76,8 @@
             </div>
         </div>
 
-        <div class="row" >
-            <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-12">
                 <p>And finally one day i've heard about the profession of web
                     developer. That sounded very interesting for me. So i decided to dive a bit deeper
                     in it. Decided to try, found couple free programs. And I LOVED IT! Today i study part time in
@@ -90,11 +92,20 @@
 
     <footer class="footer mt-auto py-3">
         <div class="container_footer">
-          <span class="text">Copyright &copy; Karina Titov</span>
+            <span class="text">Copyright &copy; Karina Titov</span>
         </div>
-      </footer>
+    </footer>
+   
 </body>
-
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 
 
