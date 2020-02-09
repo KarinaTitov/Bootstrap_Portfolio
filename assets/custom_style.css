@@ -13,11 +13,12 @@ body{
 }
 .container{
     width: 100%;
+    height: auto;
     max-width: 960px;
     padding: 0;
-    height: 100%;
     margin: auto;
     border: 0;
+    transition: padding 500;
 }
 
 .nav{
@@ -39,7 +40,7 @@ a.navbar-brand{
     text-align: center;
     padding-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     font: #ffffff;
 }
