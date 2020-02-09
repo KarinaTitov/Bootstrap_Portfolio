@@ -16,6 +16,8 @@ body{
     max-width: 960px;
     padding: 0;
     height: 100%;
+    margin: auto;
+    border: 0;
 }
 
 .nav{
